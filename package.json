@@ -1,6 +1,6 @@
 {
-  "name": "@solidity-parser/parser",
-  "version": "0.14.3",
+  "name": "@matthewethantam/parser",
+  "version": "0.1.1",
   "description": "A Solidity parser built from a robust ANTLR 4 grammar",
   "main": "dist/index.cjs.js",
   "browser": {
@@ -32,7 +32,8 @@
     "Franco Victorio",
     "Nick Addison",
     "Gonçalo Sá <goncalo.sa@consensys.net>",
-    "Federico Bond <federicobond@gmail.com>"
+    "Federico Bond <federicobond@gmail.com>",
+    "Matthew Tam (Froked addition) <Matthewethan.tam@gmail.com>"
   ],
   "homepage": "https://github.com/solidity-parser/parser",
   "repository": {
@@ -53,7 +54,8 @@
     "antlr4ts-cli": "^0.5.0-alpha.4",
     "assert": "^2.0.0",
     "chai": "^4.2.0",
-    "esbuild": "^0.11.13",
+    "custom-node-dep": "https://github.com/MatthewEthanTam/parser",
+    "esbuild": "^0.11.23",
     "esbuild-register": "^2.5.0",
     "eslint": "^7.15.0",
     "eslint-plugin-import": "^2.18.2",
